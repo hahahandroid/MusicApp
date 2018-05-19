@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/nowPlayingImageWidth"
+        android:layout_height="@dimen/nowPlayingImageHeight"
+        android:layout_gravity="center"
+        android:paddingVertical="@dimen/nowPlayingImagePadding"
+        android:src="@drawable/music_lover" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:text="@string/artist"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/song"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:text="@string/song"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingHorizontal="@dimen/paddingSecondaryButton"
+            android:text="@string/previousIcon"
+            android:textSize="@dimen/texSizeSecondaryButton" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/playIcon"
+            android:textSize="@dimen/textSizeMainButton" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingHorizontal="@dimen/paddingSecondaryButton"
+            android:scaleX="-1"
+            android:text="@string/nextIcon"
+            android:textSize="@dimen/texSizeSecondaryButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backToTheList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/paddingBackList"
+        android:text="@string/back_to_the_list" />
+
+</LinearLayout>
+

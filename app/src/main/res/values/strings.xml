@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="playIcon">▷</string>
+    <string name="pauseIcon">||</string>
+    <string name="toastPrevious">Previous Song</string>
+    <string name="toastNext">Next song</string>
+    <string name="play_list_activity_name">Playlist</string>
+    <string name="artist">Britney Spears</string>
+    <string name="song">Oops...I did it again!</string>
+    <string name="previousIcon">⨞⨞</string>
+    <string name="nextIcon">⨞⨞</string>
+    <string name="back_to_the_list">Back to the list</string>
+</resources>
